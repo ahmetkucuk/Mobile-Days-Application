@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:layout_marginBottom="60dip" >
+
+    <RelativeLayout
+        android:id="@+id/eczanetopbar"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/threedtopbar" >
+
+        <TextView
+            android:id="@+id/dayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dip"
+            android:background="@android:color/transparent"
+            android:text="@string/contact"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="100" >
+        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="7"
+            android:text="@string/mobilgunler"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="#062d82"/>
+
+        <ListView
+            android:id="@+id/mobillist"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:headerDividersEnabled="true"
+            android:layout_weight="43" >
+        </ListView>
+        
+        
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="7"
+            android:text="@string/bilkentieee"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="#062d82"/>
+
+        <ListView
+            android:id="@+id/ieeelist"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="43" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

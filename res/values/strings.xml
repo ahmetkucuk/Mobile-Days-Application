@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MobilGunlerActivity!</string>
+    <string name="app_name">Mobil Günler</string>
+    <string name="mobilgunler">Mobil Günler</string>
+    <string name="oturumlar">Oturumlar</string>
+    <string name="sponsor">Sponsorlar</string>
+    <string name="aralik21">21 Aralık</string>
+    <string name="aralik22">22 Aralık</string>
+    <string name="aralik23">23 Aralık</string>
+    <string name="date">Oturum Tarihi</string>
+    <string name="speaker">Konuşmacı</string>
+    <string name="subject">Konu</string>
+    <string name="allsessions">Tüm Oturumlar</string>
+    <string name="programlist">Program Listesi</string>
+    <string name="days">Günler</string>
+    <string name="klavuz">Mobil Günler Klavuzu</string>
+    <string name="klavuztext">Mobil Günler için hazırladığımız etkinlik klavuzuna ulaşmak için tıklayınız.</string>
+    <string name="sponsors">Sponsorlar</string>
+    <string name="gold">Altın Sponsor</string>
+    <string name="silver">Gümüş Sponsor</string>
+    <string name="support">Destek Sponsoru</string>
+    <string name="basin">Basın Sponsorları</string>
+    <string name="drink">İçecek Sponsoru</string>
+    <string name="help">Destekleyenler</string>
+    <string name="gunler">Günler</string>
+    <string name="cannotbring">Liste Getirilemiyor</string>
+    <string name="pdfdownloading">PDF Dosyası İndiriliyor</string>
+    <string name="pdferror">Bağlantı Hatası</string>
+    <string name="contact">Bize Ulaşın</string>
+    <string name="detail">Oturum Detayları</string>
+    <string name="bilkentieee">Bilkent IEEE</string>
+    <string name="iletisim">İletişim</string>
+    <string name="thekizilay">Kızılay</string>
+    <string name="thebahceli">Bahçeli</string>
+    <string name="ieeeadres">Elektrik-Elektronik Mühendisliği Bölüm Binası EE-217, Bilkent IEEE Ofisi 06800, Bilkent Üniversitesi, Ankara/Türkiye</string>
+    <string name="ulasim">Ulaşım</string>
+    <string name="aboutmobil">Mobil Günler Hakkında</string>
+    <string name="aboutmg">Etkinlik Hakkında</string>
+    <string name="kizilay">Kızılay’dan saat 8:40’ta Mobil Günler için servis kaldırılacaktır.</string>
+    <string name="bahceli">Bahçeli’den saat 9:00’ta Mobil Günler için servis kaldırılacaktır.</string>
+    <string name="aboutetkinlik">Mobil Günler, 21-22-23 Aralık Tarihlerinde Bilkent Üniversitesi’nde gerçekleştirilecek ve 3 gün boyunca sürecek olan seminerler, laboratuvar çalışmaları, eğitimler, firma oturumlar ve destekleyici oturumları gibi birçok farklı oturumdan oluşacaktır.
+Katılımcıların mobil dünya hakkındaki bilgi birikimlerini arttırabilecekleri, başlangıç ve ileri seviyelerde verilecek olan eğitimlerle kendilerini teknik anlamda geliştirebilecekleri bu etkinlik; Bilkent IEEE Öğrenci Kolu tarafından 21-22-23 Aralık tarihlerinde Bilkent Üniversitesi’nde gerçekleştirilecektir. Etkinlik sırasında kontenjanlar dâhilinde katılımcılara yatılı kalma imkânı da sağlanacaktır. Etkinlik, katılmak isteyen herkese açık ve ücretsizdir. Etkinlik programı, katılım formu ve etkinlikle ilgili daha detaylı bilgiye; www.mobilgunler.org web sayfasından ulaşabilirsiniz.</string>
+</resources>

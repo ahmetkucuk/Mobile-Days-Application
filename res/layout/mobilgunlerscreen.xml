@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <RelativeLayout
+        android:id="@+id/eczanetopbar"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/threedtopbar" >
+
+        <TextView
+            android:id="@+id/dayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dip"
+            android:background="@android:color/transparent"
+            android:text="@string/mobilgunler"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="100" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="50" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aboutmg"
+                    android:textStyle="bold"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aboutetkinlik"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dip" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/klavuz"
+                    android:textStyle="bold"
+                    android:textSize="20sp" />
+                
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/klavuz"
+                    android:text="@string/klavuztext"
+                    android:textColor="@android:color/white"
+                    android:background="#1c40a5"
+                    android:textSize="16sp"        
+                    android:layout_marginBottom="5dip" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ulasim"
+                    android:textStyle="bold"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/kizilayText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dip"
+                    android:background="#1c40a5"
+                    android:text="@string/kizilay"
+                    android:textColor="@android:color/white"
+                    android:textColorHighlight="#1c40a5"
+                    android:textStyle="italic"
+                     />
+
+                <TextView
+                    android:id="@+id/bahceliText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#1c40a5"
+                    android:text="@string/bahceli"
+                    android:textColor="@android:color/white"
+                    android:textColorHighlight="#1c40a5"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_marginBottom="60dip"
+            android:layout_weight="50"
+            android:apiKey="0SNWbofeaBJkivHVav3OiTil6ZOH_1VCycQ5Tqw"
+            android:clickable="true"
+            android:enabled="true" />
+    </TableLayout>
+
+</TableLayout>
